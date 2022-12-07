@@ -13,7 +13,7 @@ done
 
 for x in {1..5}
 do
- useradd -m --groups sudo uporabnik$x
+ sudo useradd -m --groups sudo uporabnik$x
 done
 
 sudo apt-get upgrade
